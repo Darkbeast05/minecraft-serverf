@@ -1,0 +1,22 @@
+[17:17:07] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[17:17:07] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[17:17:07] [Server thread/INFO]: Loading properties
+[17:17:07] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_181]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_181]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_181]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_181]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_181]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_181]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_181]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_181]
+	at nz$2.run(SourceFile:100) [minecraft_server.1.12.2.jar:?]
+[17:17:07] [Server thread/INFO]: Default game type: SURVIVAL
+[17:17:07] [Server thread/INFO]: Generating keypair
+[17:17:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:17:09] [Server thread/INFO]: Using default channel type
+[17:17:12] [Server thread/INFO]: Preparing level "world"
